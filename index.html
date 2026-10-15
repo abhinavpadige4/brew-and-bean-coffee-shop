@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brew & Bean Coffee Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <nav class="nav container">
+    <a href="#" class="logo">Brew &amp; Bean</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <ul class="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#menu" class="nav-link">Menu</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-content container">
+    <h1>Freshly Brewed Happiness</h1>
+    <p>Discover the aroma of our specialty coffees.</p>
+    <a href="#menu" class="btn-primary">View Menu</a>
+  </div>
+</section>
+
+<section id="about" class="about container">
+  <h2>About Us</h2>
+  <div class="about-grid">
+    <img src="https://source.unsplash.com/featured/600x400?coffee" alt="Coffee shop interior" loading="lazy" />
+    <p>At Brew &amp; Bean we craft each cup with passion and precision. Our beans are sourced from sustainable farms worldwide, roasted to perfection, and brewed by skilled baristas.</p>
+  </div>
+</section>
+
+<section id="menu" class="menu container">
+  <h2>Our Menu</h2>
+  <div class="menu-grid">
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/300x200?espresso" alt="Espresso" loading="lazy" />
+      <h3>Espresso</h3>
+      <p>Rich, bold, and smooth.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/300x200?latte" alt="Latte" loading="lazy" />
+      <h3>Latte</h3>
+      <p>Creamy milk with a shot of espresso.</p>
+    </div>
+    <div class="menu-item">
+      <img src="https://source.unsplash.com/featured/300x200?cappuccino" alt="Cappuccino" loading="lazy" />
+      <h3>Cappuccino</h3>
+      <p>Foamy delight.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact container">
+  <h2>Contact Us</h2>
+  <form class="contact-form" action="#" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn-primary">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer container">
+  <p>&copy; 2024 Brew &amp; Bean Coffee Shop. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
